@@ -44,5 +44,6 @@ public class OffersPagestepDefinition {
 	@And("validate product name in offers page matches with Landing page")
 	public void validate_product_name_in_offers_page_matches_with_Landing_page() {
 		Assert.assertEquals(setup1.landingPageproductName, offerPageProductName);
-	}
+System.out.println("BYE");	
+}
 }
