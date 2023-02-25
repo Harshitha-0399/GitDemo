@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.06 s <<< FAILURE! - in TestSuite
+cucumberOptions.TestNGTest.runScenario["Search Experience for product search in both home and offers page", "Place the order for Products"](1)  Time elapsed: 13.435 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HARSHITHA-GM', ip: '192.168.1.8'
+Caused by: org.openqa.selenium.WebDriverException: 
+Driver server process died prematurely.
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: EdgeDriver
+
