@@ -26,7 +26,10 @@ public class LandingPagestepDefinition {
 	@Given("User is on GreenCart landing page")
 	public void user_is_on_green_cart_landing_page() throws IOException {
 		Assert.assertTrue(landingpage.GetTitle().contains("GreenKart"));
+		System.out.println("HI");
+		System.out.println("BYE");
 
+		
 	}
 
 	@When("^User searched with shortname (.+) and extracted actual name of product$")
